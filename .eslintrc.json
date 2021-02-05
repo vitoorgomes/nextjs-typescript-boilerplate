@@ -27,7 +27,6 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": "error",
     "prettier/prettier": ["error", { "singleQuote": true }],
     "quotes": [2, "single", { "avoidEscape": true }],
     "space-before-function-paren": "off",
