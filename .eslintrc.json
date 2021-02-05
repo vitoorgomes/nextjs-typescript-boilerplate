@@ -28,8 +28,19 @@
   ],
   "rules": {
     "prettier/prettier": "error",
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "quotes": [2, "single", { "avoidEscape": true }],
     "space-before-function-paren": "off",
+    "no-use-before-define": "off",
+    "standard/array-bracket-even-spacing": "off",
+    "standard/computed-property-even-spacing": "off",
+    "standard/object-curly-even-spacing": "off",
+    "jsx-quotes": [2, "prefer-double"],
     "react/prop-types": "off",
-    "no-use-before-define": "off"
+    "react/jsx-max-props-per-line": [1, { "maximum": 1, "when": "multiline" }],
+    "react/self-closing-comp": ["error", {
+      "component": true,
+      "html": true
+    }]
   }
 }
